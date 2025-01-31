@@ -4,7 +4,7 @@ const nextConfig = {
   output: "export",
 
   // Set basePath only in production for GitHub Pages (avoid issues locally)
-  basePath: "/Portfolio_",
+  basePath: "/portfolio",
 
   webpack: (config, { isServer }) => {
     // Handle media files (mp3, wav) correctly
